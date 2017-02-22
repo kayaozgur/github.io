@@ -1,14 +1,63 @@
 img {width: 100%; height: 200px;}
 
-#ilk_satır {
-			background:yellow;
-			text-align:center;
-			font-weight:bold;
-			}
-			
-			
-* {font-family:helvetica}
+* {
+		margin: 0px;
+		padding: 0px;
+		font-family: arial;
 
-td:nth-child(1) {text-align:center-left}
+}
 
-footer {text-align:center;}
+header, footer, article, hgroup, aside, section, nav {display: block;}
+body {text-align: center;}
+#ana_kısım {
+
+		width: auto;
+		margin: 15px auto;
+		border: 2px solid red;
+
+}
+
+#ana_baslık {
+	border-bottom: 1px dashed red;
+	background-color: blue;
+	color: white;
+	padding: 30px;
+}
+
+#ana_menü {
+	background-color: lightblue;
+	padding: 3px;
+}
+
+#ana_menü li {
+	display: inline-block;
+	list-style: none;
+	font: 20px bold ;
+	color: white;
+	padding-left: 30px;
+}
+
+#ana_makale {
+	width: 65%;
+	margin: 25px;
+	float: left;
+	text-align: justify;
+}
+
+#ana_makale footer {
+	text-align: right;
+}
+
+#banner_kısmı {
+	float: left;
+	width: 250px;
+	margin: 25px;
+	padding: 30px;
+	background-color: yellow;
+}
+
+#alt_kısım {
+	clear: both;
+	padding: 10px;
+	border-top: 1px dashed;
+}
