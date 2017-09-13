@@ -113,7 +113,11 @@ aside {
 }
 
 #iletisim_bilgileri {
-	border:blue 1px solid;
+	
 	margin: auto;
 	font-size: 35px;
+}
+
+#iletisim_bilgileri h1 {
+	text-decoration: underline;
 }
