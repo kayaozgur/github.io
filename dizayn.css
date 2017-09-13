@@ -1,63 +1,113 @@
-img {width: 100%; height: 200px;}
-
 * {
-		margin: 0px;
-		padding: 0px;
-		font-family: arial;
+	margin: 0px ;
+	padding: 0px ;
 
 }
 
-header, footer, article, hgroup, aside, section, nav {display: block;}
-body {text-align: center;}
-#ana_kısım {
+body, nav, footer, section, aside {
+	display: block;
+}
 
-		width: auto;
-		margin: 15px auto;
-		border: 2px solid red;
+#tumsayfa {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	padding: 1px;
+}
+
+#ust_kisim {
+	display: block;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	
+
+	
+}
+#baslik {
+	background-image: url("../images/arkaplan.jpg");
+	color: #fff ;
+	padding: 35px ;
+	text-align: center;
+	font-size : 20px ;
+}
+
+footer p {
+	background: black ;
+	color: white ;
+	text-align: center;
+}
+
+nav {
+	background: black ;
+	padding: 5px;
+	
+
+	
+}
+
+nav ul>li {
+	display: inline;
+	padding: 10px;
+
+	
+
 
 }
 
-#ana_baslık {
-	border-bottom: 1px dashed red;
-	background-color: blue;
-	color: white;
-	padding: 30px;
-}
-
-#ana_menü {
-	background-color: lightblue;
-	padding: 3px;
-}
-
-#ana_menü li {
-	display: inline-block;
+nav ul li a {
 	list-style: none;
-	font: 20px bold ;
-	color: white;
-	padding-left: 30px;
+	font-weight: bold;
+	text-decoration: none;
+	padding-left:  25px ;
+	padding-right: 25px ;
+	color: #fff ;
 }
 
-#ana_makale {
-	width: 65%;
-	margin: 25px;
-	float: left;
-	text-align: justify;
+nav ul li a:hover {
+	background: #fff ;
+	color: black ;
 }
 
-#ana_makale footer {
+#govde {
+	display: -webkit-box ;
+	-webkit-box-flex ;
+	-webkit-box-orient : horizontal;
+	padding: 35px ;
+	margin: 10px;
+}
+
+#yazilar {
+	-webkit-box-flex:1;
+	margin: 10px;
+	margin-right: 140px;
+}
+section footer {
 	text-align: right;
 }
 
-#banner_kısmı {
-	float: left;
-	width: 250px;
-	margin: 25px;
-	padding: 30px;
-	background-color: yellow;
+section article p {
+	text-align: justify;
+}
+aside {
+	margin: 5px;
 }
 
-#alt_kısım {
-	clear: both;
-	padding: 10px;
-	border-top: 1px dashed;
+#dipnot {
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+
+
+
+}
+
+#govde {
+	margin-top: 130px;
+}
+
+aside {
+	position: fixed;
+	right: 0;
 }
