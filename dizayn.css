@@ -111,3 +111,9 @@ aside {
 	position: fixed;
 	right: 0;
 }
+
+#iletisim_bilgileri {
+	border:blue 1px solid;
+	margin: auto;
+	font-size: 35px;
+}
