@@ -1,9 +1,14 @@
 $(document).ready(function(){
-    $("#btnsarı").click(function(){
-       $("p").css({"background-color": "yellow", "font-size": "200%"});
-    });
 
-    $("#btnmavi").click(function(){
-       $("p").css({"background-color": "blue", "font-size": "200%"});
-    });
+	$("#metin").keyup(function () {
+
+		var metin = ($("#metin").val())/3; 
+
+		$("#sonuc").text("  mil  "+metin+ " km dir.");
+	});
+
+
+	
+	
+
 });

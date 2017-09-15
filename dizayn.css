@@ -75,6 +75,7 @@ nav ul li a:hover {
 	-webkit-box-orient : horizontal;
 	padding: 35px ;
 	margin: 10px;
+	margin-top: 130px;
 }
 
 #yazilar {
@@ -100,12 +101,8 @@ aside {
 	width: 100%;
 
 
-
 }
 
-#govde {
-	margin-top: 130px;
-}
 
 aside {
 	position: fixed;
