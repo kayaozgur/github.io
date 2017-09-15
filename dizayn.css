@@ -112,20 +112,9 @@ aside {
 #iletisim_bilgileri {
 	
 	margin: auto;
-	font-size: 38px;
+	font-size: 35px;
 }
 
 #iletisim_bilgileri h1 {
 	text-decoration: underline;
-}
-
-
-table, td, th {    
-    border: 1px solid #ddd;
-    text-align: left;
-
-}
-
-td {
-	padding: 10px;
 }
