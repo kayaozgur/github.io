@@ -71,7 +71,7 @@ nav ul li a:hover {
 
 #govde {
 	display: -webkit-box ;
-	-webkit-box-flex;
+	-webkit-box-flex:1;
 	-webkit-box-orient: horizontal;
 	padding: 35px ;
 	margin: 10px;
