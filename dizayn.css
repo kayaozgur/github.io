@@ -95,20 +95,17 @@ aside {
 }
 
 #dipnot {
-	
+	display: -webkit-inline-box;
 	position: fixed;
 	bottom: 0px;
 	left: 0px;
 	width: 100%;
+	background-color: black;
+	padding: 30px;
 	
 }
 
-#dipnot p {
 
-	display: -webkit-box;
-	-webkit-box-orient: horizontal;
-	padding-left: 30px;
-}
 
 aside {
 	position: fixed;
