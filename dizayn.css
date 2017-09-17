@@ -71,8 +71,8 @@ nav ul li a:hover {
 
 #govde {
 	display: -webkit-box ;
-	-webkit-box-flex ;
-	-webkit-box-orient : horizontal;
+	-webkit-box-flex;
+	-webkit-box-orient: horizontal;
 	padding: 35px ;
 	margin: 10px;
 	margin-top: 130px;
@@ -95,14 +95,20 @@ aside {
 }
 
 #dipnot {
+	
 	position: fixed;
 	bottom: 0px;
 	left: 0px;
 	width: 100%;
-
-
+	
 }
 
+#dipnot p {
+
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	padding-left: 30px;
+}
 
 aside {
 	position: fixed;
