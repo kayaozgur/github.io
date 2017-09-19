@@ -109,9 +109,13 @@ aside {
 	-webkit-box-flex: 1;
 	vertical-align: middle;
 	text-align: justify;
-	padding: 0px 40px 0px 0px;
+	
 	
 
+}
+
+#dipnot_text img {
+	width: 50px;
 }
 
 
