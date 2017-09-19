@@ -95,8 +95,8 @@ aside {
 
 
 #dipnot_text {
-	display: -webkit-box;
-	-webkit-box-orient: horizontal;
+	display: table;
+	
 	background: black;
 	position: fixed;
 	width: 100%;
@@ -106,7 +106,7 @@ aside {
 
 #dipnot_text p {
 	
-	-webkit-box-flex: 1;
+	display: table-cell;
 	vertical-align: middle;
 	text-align: justify;
 	
@@ -114,9 +114,7 @@ aside {
 
 }
 
-#dipnot_text img {
-	width: 50px;
-}
+
 
 
 
