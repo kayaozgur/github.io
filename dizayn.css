@@ -4,9 +4,7 @@
 
 }
 
-body, nav, footer, section, aside {
-	display: block;
-}
+
 
 #tumsayfa {
 	display: -webkit-box;
@@ -94,15 +92,26 @@ aside {
 	margin: 5px;
 }
 
-#dipnot {
-	display: -webkit-inline-box;
+
+
+#dipnot_text {
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	background: black;
 	position: fixed;
-	bottom: 0px;
-	left: 0px;
 	width: 100%;
-	background-color: black;
+	left: 0;
+	bottom: 0;
+}
+
+#dipnot_text p {
 	
+	-webkit-box-flex: 1;
+	vertical-align: middle;
+	text-align: justify;
+	padding: 0px 40px 0px 0px;
 	
+
 }
 
 
