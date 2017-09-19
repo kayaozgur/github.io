@@ -106,11 +106,10 @@ aside {
 
 #dipnot_text p {
 	
-	display: table-cell;
-	vertical-align: middle;
-	text-align: justify;
-	padding-right: 50px;
-	
+	-webkit-box-flex: 1;
+    vertical-align: middle;
+    text-align: justify;
+    padding-right: 50px;
 	
 
 }
