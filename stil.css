@@ -59,6 +59,7 @@ height: 520px;
 -webkit-box-flex: 0;  
 background-color: #fff;
 margin: 10px;
+text-align: center;
 
 }
 
@@ -66,6 +67,7 @@ margin: 10px;
     background-color: #fff;
     border: 2px solid #000;
     margin: 5px;
+  
    
 }
 

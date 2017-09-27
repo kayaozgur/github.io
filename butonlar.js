@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
         var abc = "A B C Ç D E F G Ğ H İ I J K L M N O Ö P R S Ş T U Ü V Y Z";
-        var klm = prompt("kelimeyi giriniz..")
+        var klm = prompt("Kelime yada Cümle giriniz..\n(Büyük Harf Kullanın..)")
 
         var kelime = klm.split("");
 
