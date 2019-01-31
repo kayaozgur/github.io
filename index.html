@@ -43,15 +43,24 @@
             padding: 5px;
             margin: 5px;
         }
+
+        .veri-giris {
+  display: flex;
+  flex-direction: row;
+}
+
+.veri-giris > textarea {
+  flex: 1;
+}
     </style>
 
 </head>
 
 <body>
     <div class="col">
-        <div class="row">
+        <div class="row veri-giris">
             <button id="btn" class="btn btn-success">Temizle</button>
-            <textarea id="ta" rows="4" autofocus placeholder="Bilgileri Kopyalayıp bu Alana Yapıştırın."></textarea>
+            <textarea id="ta" rows="3" autofocus placeholder="Bilgileri Kopyalayıp bu Alana Yapıştırın."></textarea>
         </div>
 
         <div class="row">
